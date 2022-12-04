@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>국내여행지 메인</title>
+  <!-- <link href="css/pStyle.css" type="text/css" rel="stylesheet"> -->
+  <style>
+  	section { margin:0 auto;width:1080px;overflow:hidden; }
+
+	.contTop { margin-top:50px; }
+	/* 검색 영역 */
+	.contTop .searchWrap { margin:0 auto;width:780px;height:50px; }
+	.contTop .searchWrap #search { display:inline-block;padding:0 10px;width:600px;height:50px;box-sizing:border-box;vertical-align:top; }
+	.contTop .searchWrap #searchBtn { display:inline-block;margin-left:10px;width:150px;height:50px;box-sizing:border-box;vertical-align:top; }
+
+	.contMid { margin-top:50px; }
+	/* 테마 태그 영역 */
+	.contMid .typeTagWrap { padding:0 17px;height:50px;box-sizing:border-box;background-color:#ebebeb; }
+	.contMid .typeTagWrap a {  }
+	.contMid .typeTagWrap a em { display:inline-block;margin:0 3px;line-height:50px;font-style:normal;font-size:16px;color:#333; }
+	.contMid .typeTagWrap a em:hover { text-decoration:underline; }
+
+	/* 여행지 탭 영억 */
+	.contMid .regionWrap { margin-top:30px; }
+	.contMid .regionWrap ul { margin:0 auto;padding:0;width:1080px;height:180px;list-style:none; }
+	.contMid .regionWrap ul li { display:block;float:left;margin:5px;width:110px;height:80px;border:1px solid #333;box-sizing:border-box;background-color:#fff; }
+	.contMid .regionWrap ul li:hover { background-color:#ebebeb; }
+	.contMid .regionWrap ul li a { display:block;line-height:80px;text-align:center;font-style:normal;font-size:18px;color:#333;text-decoration:none; }
+
+	/* 인기 여행지 영역 */
+	.contBot .bestSpotWrap { margin-top:50px; }
+	.contBot .bestSpotWrap h3 { line-height:50px;font-style:normal;font-size:28px;font-weight:bold; }
+	.contBot .bestSpotWrap ul { margin:0 auto;padding:0;width:1080px;height:180px;list-style:none; }
+	.contBot .bestSpotWrap ul li { display:block;float:left;margin:5px;width:170px;height:80px;border:1px solid #333;box-sizing:border-box;background-color:#fff; }
+	.contBot .bestSpotWrap ul li:hover { background-color:#ebebeb; }
+	.contBot .bestSpotWrap ul li a { display:block;line-height:80px;text-align:center;font-style:normal;font-size:18px;color:#333;text-decoration:none; }
+  </style>
+ </head>
+ <body>
+ 	<!--- 상단 영역 시작 --->
+	<section class="contTop">
+		<!--- 여행지 검색 영역 시작 --->
+		<div class="searchWrap">
+			<input type="text" id="search" name="여행지 검색" placeholder="여행지 검색">
+			<input type="button" id="searchBtn" value="검색">
+		</div>	
+		<!--- 여행지 검색 영역 끝 --->
+	</section>
+	<!--- 상단 영역 끝 --->
+
+	<!--- 중단 영역 시작 --->
+	<section class="contMid">
+		<!--- 테마 태그 영역 시작 --->
+		<div class="typeTagWrap">
+			<a href="#" id="typeTag"><em>#전체</em></a>
+			<a href="#" id="typeTag"><em>#카페</em></a>
+			<a href="#" id="typeTag"><em>#태그</em></a>
+			<a href="#" id="typeTag"><em>#태그</em></a>
+			<a href="#" id="typeTag"><em>#태그</em></a>
+			<a href="#" id="typeTag"><em>#태그</em></a>
+			<a href="#" id="typeTag"><em>#태그</em></a>
+			<a href="#" id="typeTag"><em>#태그</em></a>
+			<a href="#" id="typeTag"><em>#태그</em></a>
+		</div>
+		<!--- 테마 태그 영역 끝 --->
+
+		<!--- 지역 탭 영역 시작 --->
+		<div class="regionWrap">
+			<ul>
+				<li id="region"><a href="#">서울</a></li>
+				<li id="region"><a href="#">인천</a></li>
+				<li id="region"><a href="#">대전</a></li>
+				<li id="region"><a href="#">대구</a></li>
+				<li id="region"><a href="#">광주</a></li>
+				<li id="region"><a href="#">부산</a></li>
+				<li id="region"><a href="#">울산</a></li>
+				<li id="region"><a href="#">세종</a></li>
+				<li id="region"><a href="#">경기</a></li>
+				<li id="region"><a href="#">강원</a></li>
+				<li id="region"><a href="#">충북</a></li>
+				<li id="region"><a href="#">충남</a></li>
+				<li id="region"><a href="#">경북</a></li>
+				<li id="region"><a href="#">경남</a></li>
+				<li id="region"><a href="#">전북</a></li>
+				<li id="region"><a href="#">전남</a></li>
+				<li id="region"><a href="#">제주</a></li>
+				<li id="region"><a href="#">전체</a></li>
+			</ul>
+		</div>
+		<!--- 지역 탭 영역 시작 --->
+	</section>
+	<!--- 중단 영역 시작 --->
+
+	<!--- 하단 영역 시작 --->
+	<section class="contBot">
+		<!--- 베스트 여행지 영역 시작 --->
+		<div class="bestSpotWrap">
+			<h3>11월 인기 여행지 Top10</h3>
+			<ul>
+				<li id="spotBest"><a href="#">경주 황리단길</a></li>
+				<li id="spotBest"><a href="#">오이도</a></li>
+				<li id="spotBest"><a href="#">서울 식물원</a></li>
+				<li id="spotBest"><a href="#">송도</a></li>
+				<li id="spotBest"><a href="#">파주 DMZ</a></li>
+				<li id="spotBest"><a href="#">여행지</a></li>
+				<li id="spotBest"><a href="#">여행지</a></li>
+				<li id="spotBest"><a href="#">여행지</a></li>
+				<li id="spotBest"><a href="#">여행지</a></li>
+				<li id="spotBest"><a href="#">여행지</a></li>
+				<li id="spotBest"><a href="#">여행지</a></li>
+				<li id="spotBest"><a href="#">더보기</a></li>
+			</ul>
+		</div>
+		<!--- 베스트 여행지 영역 끝 --->
+	</section>
+	<!--- 중단 영역 시작 --->
+ </body>
+</html>
